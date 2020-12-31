@@ -23,7 +23,7 @@ export default class WriteStoryScreen extends React.Component {
         <TextInput
           style={styles.inputBoxMultiline}
           placeholder="Write your Story"
-          multiline="true"
+          multiline ={true}
         />
 
         <TouchableOpacity style={styles.button}>
@@ -51,7 +51,9 @@ const styles = StyleSheet.create({
     marginTop: 30,
     padding: 5,
     alignSelf:'center',
-    textAlign:'center'
+    textAlign:'center',
+    textAlignVertical:'top'
+    
   },
   button: {
     margin: 20,
